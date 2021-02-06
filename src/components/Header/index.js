@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '../Container';
 import { Heading } from './styles';
 
-export const Header = () => (
+const Header = () => (
   <Heading>
     <Container>
       <h1>
@@ -11,3 +11,5 @@ export const Header = () => (
     </Container>
   </Heading>
 );
+
+export default Header;
